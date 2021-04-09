@@ -20,3 +20,6 @@ docker​​ ​​run​​ ​​-p​​ ​​3000:3000​​ ​​Image_Na
 
 ## Para dar nome ao Container
 docker tag _image_ID_ colocque o nome que deseja
+
+## Para mudar a versao de latest para sua escolha (ex. 1.0)
+docker tag railsapp railsapp:1.0 
