@@ -26,3 +26,6 @@ docker tag railsapp railsapp:1.0
 
 ## Voce pode construir sua image ja com tag e versao (Ex. abaixo:)
 ​​docker​​ ​​build​​ ​​-t​​ ​​railsapp​​ ​​-t​​ ​​railsapp:1.0​​ ​​.​
+
+## Para cada inserçao no Dockerfile deve-se re buildar pelo commando (Ex)
+docker​​ ​​build​​ ​​-t​​ ​​railsapp​​ ​​.
