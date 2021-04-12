@@ -32,3 +32,5 @@ docker​​ ​​build​​ ​​-t​​ ​​railsapp​​ ​​.
 
 ## Para rodas o container agora faça (Ex.)
 ​​docker​​ ​​run​​ ​​-p​​ ​​3000:3000​​ ​​railsapp
+
+## 
