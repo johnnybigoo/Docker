@@ -38,3 +38,6 @@ docker-compose​​ ​​up​​ ​​-d​
 
 ## To check what containers are currently running
 docker-compose​​ ​​ps​
+
+## To stop all containers in the entire application, we would run:
+docker-compose​​ ​​stop​
