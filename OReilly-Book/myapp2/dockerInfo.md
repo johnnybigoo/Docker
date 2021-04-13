@@ -41,3 +41,6 @@ docker-compose​​ ​​ps​
 
 ## To stop all containers in the entire application, we would run:
 docker-compose​​ ​​stop​
+
+## To target a particular service, we’d specify the service name after the action like so:
+docker-compose​​ ​​stop​​ ​​<service_name>​
