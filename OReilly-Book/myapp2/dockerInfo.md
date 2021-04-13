@@ -35,3 +35,6 @@ docker​​ ​​build​​ ​​-t​​ ​​railsapp​​ ​​.
 
 ## Containers in detached mode by specifying the -d option, run:
 docker-compose​​ ​​up​​ ​​-d​
+
+## To check what containers are currently running
+docker-compose​​ ​​ps​
