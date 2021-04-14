@@ -43,4 +43,7 @@ docker-compose​​ ​​ps​
 docker-compose​​ ​​stop​
 
 ## To target a particular service, we’d specify the service name after the action like so:
-docker-compose​​ ​​stop​​ ​​<service_name>​
+docker-compose​​ ​​stop​​ ​​<service_name>
+
+## viewing the container logs:
+docker-compose​​ ​​logs​​ ​​-f​​ ​​web
