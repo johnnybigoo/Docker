@@ -47,3 +47,10 @@ docker-compose​​ ​​stop​​ ​​<service_name>
 
 ## viewing the container logs:
 docker-compose​​ ​​logs​​ ​​-f​​ ​​web
+
+## Pruning: Freeing Up Unused Resources:
+docker image prune
+
+docker container prune
+
+docker system prune
