@@ -54,3 +54,7 @@ docker image prune
 docker container prune
 
 docker system prune
+
+## Docker to run a container based on the official Docker redis image.
+docker​​ ​​run​​ ​​--name​​ ​​redis-container​​ ​​redis​
+
