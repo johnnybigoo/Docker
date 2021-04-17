@@ -58,3 +58,5 @@ docker system prune
 ## Docker to run a container based on the official Docker redis image.
 docker​​ ​​run​​ ​​--name​​ ​​redis-container​​ ​​redis​
 
+## we can run redis-cli and connect to our Redis server with the following command:
+docker-compose​​ ​​run​​ ​​--rm​​ ​​redis​​ ​​redis-cli​​ ​​-h​​ ​​redis​
