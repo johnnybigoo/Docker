@@ -60,3 +60,6 @@ docker​​ ​​run​​ ​​--name​​ ​​redis-container​​ ​�
 
 ## we can run redis-cli and connect to our Redis server with the following command:
 docker-compose​​ ​​run​​ ​​--rm​​ ​​redis​​ ​​redis-cli​​ ​​-h​​ ​​redis​
+
+## Let’s list our currently defined networks using the command:
+docker​​ ​​network​​ ​​ls​
