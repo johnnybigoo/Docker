@@ -63,3 +63,16 @@ docker-compose​​ ​​run​​ ​​--rm​​ ​​redis​​ ​​re
 
 ## Let’s list our currently defined networks using the command:
 docker​​ ​​network​​ ​​ls​
+
+## Generating a welcome controller in our Rails app with a single index action:
+docker-compose​​ ​​exec​​ ​​web​​ ​​bin/rails​​ ​​g​​ ​​controller​​ ​​welcome​​ ​​index
+
+## To see which container was closed ans the code run:
+docker ps -la
+
+## Run docker-compose in Verbose mode
+docker-compose --verbose up
+
+## Rails Server Not Starting?
+On starting Rails, it’s possible you may encounter the same issue mentioned earlier. If Rails thinks the server is already running, you’ll need to delete tmp/pids/server.pid on your local machine. We’ll see a better way to handle this in Chapter 9.
+
