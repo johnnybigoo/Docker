@@ -76,3 +76,5 @@ docker-compose --verbose up
 ## Rails Server Not Starting?
 On starting Rails, it’s possible you may encounter the same issue mentioned earlier. If Rails thinks the server is already running, you’ll need to delete tmp/pids/server.pid on your local machine. We’ll see a better way to handle this in Chapter 9.
 
+## Up the postgres container
+docker-compose​​ ​​up​​ ​​-d​​ ​​database​
