@@ -78,3 +78,6 @@ On starting Rails, it’s possible you may encounter the same issue mentioned ea
 
 ## Up the postgres container
 docker-compose​​ ​​up​​ ​​-d​​ ​​database​
+
+## Check the logs for the an specific container
+docker-compose​​ ​​logs​​ ​​database
