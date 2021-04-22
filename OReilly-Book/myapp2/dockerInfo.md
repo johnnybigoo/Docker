@@ -84,3 +84,6 @@ docker-compose​​ ​​logs​​ ​​database
 
 ## Run a command to start the Postgres client
 docker-compose​​ ​​run​​ ​​--rm​​ ​​database​​ ​​psql​​ ​​-U​​ ​​postgres​​ ​​-h​​ ​​database​
+
+## To create our development and test databases using the standard Rails command bin/rails db:create, targeting the command at our web service:
+docker-compose​​ ​​run​​ ​​--rm​​ ​​web​​ ​​bin/rails​​ ​​db:create
