@@ -87,3 +87,6 @@ docker-compose​​ ​​run​​ ​​--rm​​ ​​database​​ ​�
 
 ## To create our development and test databases using the standard Rails command bin/rails db:create, targeting the command at our web service:
 docker-compose​​ ​​run​​ ​​--rm​​ ​​web​​ ​​bin/rails​​ ​​db:create
+
+## Restarting the rails server
+docker-compose​​ ​​up​​ ​​-d​​ ​​--force-recreate​​ ​​web​
