@@ -81,3 +81,6 @@ docker-compose​​ ​​up​​ ​​-d​​ ​​database​
 
 ## Check the logs for the an specific container
 docker-compose​​ ​​logs​​ ​​database
+
+## Run a command to start the Postgres client
+docker-compose​​ ​​run​​ ​​--rm​​ ​​database​​ ​​psql​​ ​​-U​​ ​​postgres​​ ​​-h​​ ​​database​
