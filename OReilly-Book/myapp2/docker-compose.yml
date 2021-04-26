@@ -8,17 +8,23 @@ services:
             - "3000:3000"
         volumes:
             - .:/usr/src/app/
-        env_file:
-            - .env/development/database
-            - .env/development/web
+        # environment: 
+
+        # env_file:
+        #     - .env/development/database
+        #     - .env/development/web
 
     redis:
         image: redis
 
     database:
         image: postgres
-        env_file:
-            - .env/development/database
+        environment: 
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: abc1234
+            POSTGRES_DB: myapp_development2
+        # env_file:
+        #     - .env/development/database
 
     #     volumes:
     #         - db_data:/var/lib/postgresql/data
