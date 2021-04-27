@@ -8,7 +8,11 @@ services:
             - "3000:3000"
         volumes:
             - .:/usr/src/app/
-        # environment: 
+        environment:
+            DATABASE_HOST: database
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: abc1234
+            POSTGRES_DB: myapp_development2
 
         # env_file:
         #     - .env/development/database
