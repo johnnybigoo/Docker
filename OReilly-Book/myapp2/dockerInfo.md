@@ -90,3 +90,10 @@ docker-compose​​ ​​run​​ ​​--rm​​ ​​web​​ ​​bin/
 
 ## Restarting the rails server
 docker-compose​​ ​​up​​ ​​-d​​ ​​--force-recreate​​ ​​web​
+
+## Create a database
+docker-compose​​ ​​exec​​ ​​web​​ ​​\​ ​​bin/rails​​ ​​g​​ ​​scaffold​​ ​​User​​ ​​first_name:string​​ ​​last_name:string​
+
+## Migrate the DB
+docker-compose​​ ​​exec​​ ​​web​​ ​​bin/rails​​ ​​db:migrate​
+
